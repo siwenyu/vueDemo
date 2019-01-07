@@ -13,6 +13,14 @@ import page18 from '@/page/page18'
 import indexmk from '@/page/indexmk'
 import indexcallapply from '@/page/indexcallapply'
 import indexanquan from '@/page/indexanquan'
+import indexemoji from '@/page/indexemoji'
+import indexbind from '@/page/indexbind'
+import indexflex from '@/page/indexflex'
+import indexsort from '@/page/indexsort'
+
+
+
+
 
 
 
@@ -69,8 +77,26 @@ export default new Router({
             path: '/indexanquan',
             mame: 'indexanquan',
             component: indexanquan
+        },
+        {
+            path: '/indexemoji',
+            mame: 'indexemoji',
+            component: indexemoji
+        },
+        {
+            path: '/indexbind',
+            mame: 'indexbind',
+            component: indexbind
+        },
+        {
+            path: '/indexflex',
+            mame: 'indexflex',
+            component: indexflex
+        },
+        {
+            path: '/indexsort',
+            mame: 'indexsort',
+            component: indexsort
         }
-        
-        
     ]
 })

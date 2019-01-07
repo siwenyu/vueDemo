@@ -2,6 +2,11 @@
 
 > A Vue.js project
 
+## README
+
+日常学习测试代码记录。
+可通过预览。
+
 ## Build Setup
 
 ``` bash
